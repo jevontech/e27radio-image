@@ -16,6 +16,8 @@ extra packages:
 * audiofile: Audio File Library
 * mpg123: mp3 player ( inspired by recipe at https://github.com/alext-mkrs/meta-alext-edison)
 * Poco: C++ library  ( recipe from https://github.com/bmwcarit/meta-ros)
+* libao: Audio output
+* e27radio: E27radio software (WORK IN PROGRESS)
 
 ## Other modifications
 modified Bitbake recipe:
