@@ -7,8 +7,8 @@ This git archive can be used to build an image for Intel Edison, specifically fo
 This git archive is based on the default Intel Edison source with the following modifications:
 
 ## New layers
-meta-qt5: https://github.com/meta-qt5/meta-qt5
-meta-e27: new layer specifically for this project
+* meta-qt5: based on https://github.com/meta-qt5/meta-qt5
+* meta-e27: new layer specifically for this project
 
 ## What is in layer meta-e27 ?
 
@@ -25,5 +25,5 @@ modified Bitbake recipe:
 Use the makefile as provided:
 
 1. Run 'make setup'
-2. Run 'make edison-image'  <-- this will take a LONG time and diskspace
+2. Run 'make edison-image'  <-- this will take a LONG time and a lot of diskspace
 

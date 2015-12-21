@@ -160,7 +160,6 @@ IMAGE_INSTALL += "mraa-doc"
 IMAGE_INSTALL += "upm-dev"
 
 
-
 # INTEL MCU FW
 IMAGE_INSTALL += "mcu-fw-load"
 IMAGE_INSTALL += "mcu-fw-bin"
@@ -176,11 +175,15 @@ IMAGE_INSTALL += "battery-voltage"
 
 
 # Add Poco
-IMAGE_INSTALL += "libpoco"
+IMAGE_INSTALL += "libpoco-dev"
 
 # Add Mpg123
 IMAGE_INSTALL += "mpg123"
 
+# Add libao
+IMAGE_INSTALL += "libao-dev"
+IMAGE_INSTALL += "libao-plugin-libpulse"
+
 # Add Qt 5 Connectivity
-IMAGE_INSTALL += "qtconnectivity"
+IMAGE_INSTALL += "qtconnectivity-dev"
 
